@@ -16,16 +16,24 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+.option-window {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  padding: 1.5rem;
 }
 
-img {
-  height: 500px;
-  width: 800px;
-  border: 2px solid black;
+input {
+  margin: 0.5rem 0;
+}
+
+h1 {
+  font-weight: 600;
 }
 
 /******************************************
