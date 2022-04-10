@@ -3,7 +3,7 @@ function getRandomNum(min, max) {
     return Math.floor(Math.random() * (max-min) + min);
 }
 
-let imageNum = getRandomNum(1, 6);
+let imageNum = getRandomNum(1, 12);
 
 // Random gif is selected to pop up every time interval
 document.querySelector('#img-box').innerHTML = `<img src="./img/${imageNum}.gif" alt="eye or neck exercise">`
