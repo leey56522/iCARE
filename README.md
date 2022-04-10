@@ -1,6 +1,4 @@
 # iCARE
-<a href="https://ibb.co/Gty6yRK"><img src="https://i.ibb.co/CMgcgQk/5.gif" alt="5" border="0"></a>
-
 - This is an all-in-one Google Chrome extension that helps the user exercise their ocular muscle and neck muscle
 - The extension creates a popup window in the middle of the screen every 30 minutes (customizable) 
 - The gifs have a moving dot and following its movement with eyes exercises ocular muscle
