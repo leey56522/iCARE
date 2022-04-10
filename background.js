@@ -1,5 +1,7 @@
-// The default time interval will be 30 minutes
-let defaultDuration = 1.0;
+// The time interval will be 30 minutes or the customized time set in the past
+let defaultDuration = localStorage.getItem('intervalTime') || 30.0;
+
+console.log(defaultDuration)
 
 // Creates an alarm after above the above duration is past
 function createAlarm() {
@@ -35,8 +37,11 @@ createAlarm()
 // Updates the interval based on set time input
 chrome.runtime.onMessage.addListener(
     function(request, sendResponse) {
-        console.log('Event received in background page')
         defaultDuration = request.newTime * 1.0;
+
+        // Stores the new time in the local storage
+        localStorage.setItem('intervalTime', defaultDuration);
+
         createAlarm();
         sendResponse({success: true});
     }

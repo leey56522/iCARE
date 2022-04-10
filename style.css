@@ -23,17 +23,52 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 1.5rem;
-}
-
-input {
-  margin: 0.5rem 0;
+  align-items: start;
+  padding: 2rem;
+  width: 20rem;
+  background-color: #355070;
+  color: white;
 }
 
 h1 {
   font-weight: 600;
+  font-size: 2rem;
+  color: #7fc8f8;
+}
+
+input {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: none;
+  color: #355070;
+}
+
+.current-interval {
+  font-size: 1rem;
+}
+
+#time {
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #ffd166;
+}
+
+#change-interval-btn {
+  border: none;
+  background-color: #7fc8f8;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  color: #355070;
+  border-radius: 0.2rem;
+  font-weight: 500;
+}
+
+#change-interval-btn:hover {
+  background-color: #ffd166;
+  transition: all 0.2s;
 }
 
 /******************************************
