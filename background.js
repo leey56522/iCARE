@@ -15,7 +15,7 @@ chrome.alarms.onAlarm.addListener(function() {
 
 // Creates a popup window of assigned size in the center of the screen
 function popWindow() {
-    const window_height = 600;
+    const window_height = 1000;
     const window_width = 1000;
 
     // x and y coordinates are calculated based on the screen size and window size
