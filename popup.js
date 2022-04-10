@@ -9,7 +9,7 @@ function changeInterval() {
         alert('Make sure your input is a whole number!')
     } else {
         document.querySelector('.current-interval').innerHTML = `<p>The current interval is every ${newTime} minutes</p>`
-        // testing message passing function 
+        // pass the input value to the background js
         chrome.runtime.sendMessage({newTime}, function(response) {
             console.log(response);
             console.log(newTime)

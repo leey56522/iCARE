@@ -1,5 +1,5 @@
 // The default time interval will be 30 minutes
-let defaultDuration = 20.0;
+let defaultDuration = 1.0;
 
 // Creates an alarm after above the above duration is past
 function createAlarm() {
@@ -19,7 +19,7 @@ function popWindow() {
     // x and y coordinates are calculated based on the screen size and window size
     const x = screen.width/2 - window_width/2;
     const y = screen.height/2 - window_height/2;
-
+    
     chrome.windows.create({
         url:'/window.html',
         type: "popup",
