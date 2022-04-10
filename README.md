@@ -4,6 +4,8 @@
 - The gifs have a moving dot and following its movement with eyes exercises ocular muscle
 - The images have sentences tilted in a way that makes the user tilt their head to read each sentence. By the time the user finishes reading the entire image, they would have exercised their stiff neck muscle
 
+- This project won the Best Women's Hack in PickHacks 2022
+
 <a href="https://ibb.co/Wx72B1y"><img src="https://i.ibb.co/8KG7PV5/Screen-Shot-2022-04-09-at-10-55-37-PM.png" alt="Screen-Shot-2022-04-09-at-10-55-37-PM" border="0"></a>
 - This is the window where the user can update the time interval
 
