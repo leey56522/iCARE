@@ -27,12 +27,14 @@
 1. Figuring out the way to make an extension was more challenging than I thought. None of us had made an extension before, and we had to start from scratch. We overcomed by dividing our work. Those who are familiar with JavaScript coded while others worked on gif/jpg and looked up ways to make the extension. Youtube and StackOverflow helped a lot.
 2. It was hard to figure out how to center the popup window to the center of the screen, because the extension’s default popup window had size limitation and cannot be repositioned. So we had to use chrome.window.create to bring up a new window and change its type to ‘popup’ so that the window’s interface is minimized. It also allowed us to change its size and reposition it to the center of the screen. 
 3. Figuring out how to automatically close the popup window was hard as well. Window.close() didn’t seem to work at first, but I realized that I was using it in the wrong file (background.js). It worked when I moved the function to window.js to target the popup window specifically.
-4. Making gif was a lot harder than we thought.
+4. Making gif was a lot harder than we thought. We thought to use Canva's gif maker, but it did not move all of the elements of the gifs. We overcame this by realising that each gif had to be made using a frame-by-frame animation style and using a online gif maker (ezgif) to finalise the gifs.
+
 
 
 ## Upcoming Updates
 1. Consider using CSS translation animation for smoother object movement
 2. Add posture or hydration check notification setting
 3. Add more types of images and gifs so that the user doesn’t get repeated images or gifs
+4. An API to send custom alerts to the user phone
 
 
